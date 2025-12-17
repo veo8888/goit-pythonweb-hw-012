@@ -1,0 +1,30 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+venv/
+ENV/
+
+# Alembic migrations
+alembic/versions/*.py
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Optional: Python egg / distribution files
+*.egg-info/
+dist/
+build/
+
+
