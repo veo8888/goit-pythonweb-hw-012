@@ -32,6 +32,16 @@ Implemented features:
 
 - Project documentation generated using Sphinx
 
+## 🌐 Live Demo (Work in Progress)
+
+Link to a test website (work in progress).  
+Some features may be incomplete or unstable.
+
+Frontend: React  
+Backend: Python (FastAPI)
+
+👉 https://nahiba.pp.ua/
+
 ## 🚀 Running the Project in VS Code (Windows)
 
 1. Open the project in **VS Code**.
