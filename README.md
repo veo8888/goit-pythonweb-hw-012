@@ -56,6 +56,8 @@ Interactive API documentation:
 
 ## 🛠 Alembic Migrations (Docker)
 
+⚠️ Before running migrations, make sure to create a `versions` folder inside the `alembic` directory.
+
 1️⃣ Create migration:
 
 ```bash
@@ -77,7 +79,7 @@ docker exec hw12-web-authentication alembic downgrade -1
 ## 🧪 Running Tests (Docker)
 
 ```bash
-docker exec hw12-web-authentication pytest
+docker exec hw12-web-authentication pytest -v
 ```
 
 ## 📚 Generate Documentation with Sphinx (Docker)
@@ -89,7 +91,7 @@ docker exec hw12-web-authentication sphinx-build -b html docs build/html
 - Note: The generated HTML documentation will be available locally in:
 
 ```
-docs/build/html
+build/html
 ```
 
 ## ✔ Notes
