@@ -225,10 +225,9 @@ def create_password_reset_token(user: User) -> str:
 def create_verification_token(user: User) -> str:
     """Generate verification JWT token for email confirmation."""
     return create_access_token(
-        {"sub": user.email, "scope": "verification"}, expires_delta=timedelta(hours=24)def create_verification_token(user: User) -> str:
-    """Generate verification JWT token for email confirmation."""
-    return create_access_token(
-        {"sub": user.email, "scope": "verification"}, expires_delta=timedelta(hours=24), scope="verification"
+        {"sub": user.email, "scope": "verification"},
+        expires_delta=timedelta(hours=24),
+        scope="verification",
     )
 
 
